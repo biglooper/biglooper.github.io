@@ -21,7 +21,7 @@ function init() {
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
-loader.loadFile({src:"images/looper_atlas_.json", type:"spritesheet", id:"looper_atlas_"}, true);
+loader.loadFile({src:"https://biglooper.github.io/images/looper_atlas_.json", type:"spritesheet", id:"looper_atlas_"}, true);
 	loader.loadManifest(lib.properties.manifest);
 }
 
